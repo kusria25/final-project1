@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital@1&display=swap');
+/*satauri*/
+.hed{
+    margin: 30px 0 0 40px;
+    width: 60%;
+}
+.hed-ul{
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+li:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    
+}
+#fix{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+/*guli*/
+#conteiner{
+    /* height: 70vh;
+    width: 70%; */
+    /* border-radius: 20px;
+    border: 2px solid red; */
+    margin: 40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.ch-conteiren{
+    
+    width: 30%;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 1px 5px 10px 2px #0000000a;
+}
+.conteiner-img{
+    border-radius: 20px;
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.satauri,.par{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(9, 183, 186);
+    font-family: 'Exo 2', sans-serif;
+}
+.satauri{
+    font-size: 30px;
+    color: red;
+}
